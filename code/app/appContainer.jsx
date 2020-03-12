@@ -1,7 +1,7 @@
 import React,{Component} from 'react'
 import PureRenderMixin from 'react-addons-pure-render-mixin'
 import {HashRouter as Router,Route,Switch,Redirect} from 'react-router-dom'
-import createBrowserHistory from 'history/createBrowserHistory'
+import {createBrowserHistory} from 'history'
 
 //redux流
 import { bindActionCreators } from 'redux'
