@@ -1,4 +1,4 @@
 module.exports ={
-    imgUrl:"http://127.0.0.1:3000",
-    port:"3000"
+    imgUrl:"http://120.27.54.195:3555",
+    port:"3555"
 }

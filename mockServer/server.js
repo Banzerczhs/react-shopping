@@ -1,6 +1,8 @@
 const Koa = require('koa');
 const app = new Koa()
 var router = require('koa-router')();
+
+
 //首页广告
 var homeAdData = require('./home/ad.js');
 router.get('/api/homead',function(ctx,next){  
@@ -80,3 +82,4 @@ app.use(router.routes())
    .use(router.allowedMethods());
 var config=require("./config/config")
 app.listen(config.port);
+console.log('listen:'+config.port);

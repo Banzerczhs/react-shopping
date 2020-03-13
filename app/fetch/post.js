@@ -1,5 +1,6 @@
 import 'whatwg-fetch'
 import 'es6-promise'
+import config from "../config/config";
 
 function objparams(obj){
 	var result = '';
@@ -17,7 +18,7 @@ function objparams(obj){
 }
 
 export function post(url,paramsObj){
-	var result = fetch(url,{
+	var result = fetch(config.baseUrl+url,{
 		method:"POST",
 		credentials:'include',
 		headers:{
