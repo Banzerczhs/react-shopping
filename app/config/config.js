@@ -1,5 +1,5 @@
 let serve={
-    baseUrl : 'http://120.27.54.195'
+    baseUrl : 'http://localhost:8080'
 }
 
 export default serve;
